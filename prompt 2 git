@@ -1,0 +1,9 @@
+Prompt: Import Feature Specification
+Implement an Import feature triggered by an 'Import' button.
+The feature must allow uploading Excel (.xlsx) or CSV files directly into the database.
+The uploaded file must contain parameters that match the properties defined in the code.
+On upload, the system should:
+Validate data: If any record has mismatched or invalid data, reject that record.
+Insert valid records straight into the database.
+Generate a unique ID for each import operation.
+Log a timestamp indicating when the import process was completed.
